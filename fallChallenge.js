@@ -96,7 +96,7 @@ function main() {
                     let distance = calculerDistance(mesDrones[i].coordonnees.x, creaturesVisibles[j].coordonnees.x, mesDrones[i].coordonnees.y, creaturesVisibles[j].coordonnees.y);
                     if (distance < closestDistance) {
                         closestDistance = distance;
-                        targetSpot      = creaturesVisibles[j].coordonnees.x+" "+creaturesVisibles[j].coordonnees.y;
+                        targetSpot = creaturesVisibles[j].coordonnees.x+" "+creaturesVisibles[j].coordonnees.y;
                     }    
                 }                            
             }
